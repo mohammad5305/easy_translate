@@ -11,8 +11,8 @@ this app is translate the last copy in your clipboard the default language that 
 ```
 pip3 install googletrans==4.0.0-rc1
 
-# xclip arch-base
-sudo pacman -S xclip
+# xclip and sxhkd arch-base
+sudo pacman -S xclip sxhkd
 
 ```
 
@@ -26,5 +26,5 @@ cd ~/.config/sxhkd
 touch sxhkdrc
 echo -e "super + shift + t \n   python ./path_to_translator" >> sxhkdrc
 ```
-
+super + shift + t -> run app 
 and you most put sxhkd on startup app to shortcut run!!!
