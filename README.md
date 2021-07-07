@@ -27,4 +27,5 @@ touch sxhkdrc
 echo -e "super + shift + t \n   python ./path_to_translator" >> sxhkdrc
 ```
 super + shift + t -> run app 
+
 and you most put sxhkd on startup app to shortcut run!!!
