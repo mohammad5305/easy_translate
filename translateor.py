@@ -7,8 +7,8 @@ translator = Translator()
 translate = translator.translate(text, "fa")
 try:
     if len(text) > 50:
-        system(f"notify-send 'translate' '{translate.text}'")
+        system(f"notify-send --expire-time=100000 'translate' '{translate.text}'")
     else:
-        system(f"notify-send 'translate' '{text} : {translate.text}'")
+        system(f"notify-send --expire-time=10000 'translate' '{text} : {translate.text}'")
 except Exception as error:
-    system(f"notify-send 'translate' 'translate failed try again'")
+    system(f"notify-send --expire-time=10000 'translate' 'translate failed try again'")
