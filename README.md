@@ -24,7 +24,7 @@ Installation of xclip and sxhkd depends on your distro package manager
 mkdir ~/.config/sxhkd
 cd ~/.config/sxhkd
 touch sxhkdrc
-echo -e "super + shift + t \n   python ./path_to_translator" >> sxhkdrc
+echo -e "super + shift + t \n    <your terminal name> -e python ./path_to_translator" >> sxhkdrc
 ```
 super + shift + t -> run app 
 
