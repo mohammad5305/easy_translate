@@ -4,14 +4,14 @@ this app is translate the last copy in your clipboard the default language that 
 - googletrans=4.0.0-rc1
 - xclip 
 - sxhkd
-- python = +3.6
+- python +3.6
 
 ## Installation
 
 ```
 pip3 install googletrans==4.0.0-rc1
 
-# xclip and sxhkd arch-base
+# xclip and sxhkd on arch-base
 sudo pacman -S xclip sxhkd
 
 ```
