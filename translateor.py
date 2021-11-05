@@ -11,4 +11,4 @@ try:
     else:
         system(f"notify-send --expire-time=10000 'translate' '{text} : {translate.text}'")
 except Exception as error:
-    system(f"notify-send --expire-time=10000 'translate' 'translate failed try again'")
+    system("notify-send --expire-time=10000 'translate' 'translate failed try again'")
