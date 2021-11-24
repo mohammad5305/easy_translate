@@ -2,21 +2,18 @@
 this app is translate the last copy in your clipboard the default language that translate to is persian but you can change it.  
 ## Requirement
 - googletrans=4.0.0-rc1
-- xclip 
+- pyperclip 
 - sxhkd
 - python +3.6
 
 ## Installation
 
 ```
-pip3 install googletrans==4.0.0-rc1
-
-# xclip and sxhkd on arch-base
-sudo pacman -S xclip sxhkd
+pip3 install googletrans==4.0.0-rc1 pyperclip
 
 ```
 
-Installation of xclip and sxhkd depends on your distro package manager
+Installation of sxhkd depends on your distro package manager
 
 ## Using sxhkd to set a shortcut for app
 
